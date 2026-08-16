@@ -3,3 +3,28 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root{
+    --gradient: linear-gradient(180deg,rgba(45,112,1253,0.73),#163e92 100%);
+    --dark:#001747;
+    --grey:#bab1cb;
+    --grey-border:rgba(210,210,210,0.75);
+    --grey-light:#eeeeee;
+    --grey-dark:#405175;
+    --white:#ffffff;
+    -blue:#2d70fd;
+    --green:#00d8a7;
+}
+
+body{
+    background: var(--gradient);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.btn{
+    color: var(--white);
+}

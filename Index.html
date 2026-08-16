@@ -1,11 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Do App</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <section class="todo">
+        <h2>To Do List</h2>
+        <div class="input">
+            <input type="text" class="input-field" id="todoInput" placeholder="Add TO DO">
+        </div>
+        <ul class="scroll">
+            <li id="todoList"></li>
+        </ul>
+        <div>
+            <hr class="counter">
+            <div class="counter-container">
+                <p><span>0</span>Item's in the List</p>
+                <button id="deleteButton">Delete All</button>
+            </div>
+        </div>
+        <button class="btn">ADD</button>
+
+    </section>
+    <footer class="footer">
+        <p class="">Make By <span class="author"> Kamran Zia </span></p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
+
 </html>
